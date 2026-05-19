@@ -1,0 +1,333 @@
+[ 
+    {
+        "DATE": "13/05/2026",
+        "SPEAKER": "Amir Naseredini",
+        "LINK": "https://sahnaseredini.github.io/",
+        "AFFILIATION": "Huawei",
+        "TITLE": "ALARM: Active LeArning of Rowhammer Mitigations",
+        "ABSTRACT": "Rowhammer is a serious security problem of contemporary dynamic random-access memory (DRAM) where reads or writes of bits can flip other bits. DRAM manufacturers add mitigations, but don't disclose details, making it difficult for customers to evaluate their efficacy. We present an automated tool, based on active learning, that automatically infers parameter of Rowhammer mitigations against synthetic models of modern DRAM. <br> <a href=https://arxiv.org/abs/2211.16942>Link to the paper</a>.",
+        "WHERE": "Chichester 1"
+    },{
+        "DATE": "27/04/2026",
+        "SPEAKER": "Guy McCusker",
+        "LINK": "https://people.bath.ac.uk/gam23/",
+        "AFFILIATION": "University of Bath",
+        "TITLE": "Interaction Improvement",
+        "ABSTRACT": "The relational semantics of linear logic is a powerful framework for defining resource-aware models of the λ-calculus. However, its quantitative aspects are not reflected in the preorders and equational theories induced by these models. We attempt to shed some light on the quantitative aspects of these models by studying the recently introduced checkers calculus. We give a quantitative notion of “improvement preorder” on the checkers calculus and provide a sound denotational model for this preorder using a weighted relational semantics. Our main result is that the induced preorders on terms of the ordinary λ-calculus coincide: the relational semantics, the weighted relational semantics, and the quantitative operational preorder all correspond to inclusion of Böhm trees up to extensionality. \n Joint work with Adrienne Lancelot (University of Bologna), Giulio Manzonetto (IRIF, Université Paris Cité) and Gabriele Vanoni (IRIF, Université Paris Cité)",
+        "WHERE": "Shawcross AS02"
+    },{
+        "DATE": "05/12/2025",
+        "SPEAKER": "Dusko Pavlovic",
+        "LINK": "https://dusko.org/",
+        "AFFILIATION": "University of Hawaii",
+        "TITLE": "Computability is a property (in monoidal categories)",
+        "ABSTRACT": "A partially ordered set can be a monoid in many different ways, but it can be a lattice in only one way. This is because monoid is an algebraic *structure*, whereas having meets and joins is a *property* of a poset.\n\nChurch's thesis says that computability is a structure, not a property. There are many different models of computation and every computable function can be programmed and computed in each of them in infinitely many different ways. Programs can be computably translated from model to model and from language to language while preserving the computed functions --- yet the translations do not commute: translating a program from one language to another and then back yields a different program, computing the function in a different way.\n\nI prove that computability is a property, provided that the monoidal structure of the universe of computable functions and types is taken into account.\n\nThe universe of computable functions is a monoidal category, not cartesian because computable functions may not halt. A *monoidal computer* is a monoidal category with data services that allow data copying and deleting, and with a type of programs carrying program evaluators. The claim is that, as soon as the programs are well-ordered, the type of programs is unique up to a program-evaluator preserving computable isomorphism. There are translations between programming languages which preserve not only the computed functions but also the computations, in the sense that they allow recovering any program, up to alpha-conversion, from any of its translations to any of the other languages.",
+        "WHERE": " 2A1 at Pevensey 1"
+    },
+    {
+        "DATE": "26/11/2025",
+        "SPEAKER": "Dylan Bettendroffer",
+        "LINK": "",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Strong normalisation for system F",
+        "ABSTRACT": "This talk will be a simple retelling of the proof of strong normalization of System F. We'll recall of the notions of weak and strong normalization, show these properties for simply typed lambda-calculus and what are the problems of applying the same methods for F. Before then going through Jean-Yves Girard's proof of reducibility candidates and how it solves these problems.",
+        "WHERE": "Lecture Theater 1 at Chichester I"
+    },
+    {
+        "DATE": "19/11/2025",
+        "SPEAKER": "Marc Thatcher",
+        "LINK": "https://profiles.sussex.ac.uk/p593892-marc-thatcher",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Productivity of Interaction Nets, part II",
+        "ABSTRACT": "It has long been known that interaction nets suffer from potential deadlock, that is nets that reduce to normal forms that cannot be interacted with.   Methods of avoiding this, drawn from proof net theory, have also been long known, but suffer from being overly conservative - that is, there are useful nets which do not deadlock but are not allowed. This work borrows the concept of productivity from term rewriting and builds on this to provide a method which can better classify nets into those that will produce an output and those (including deadlocked nets but also non-terminating ones) which will not. This talk updates the work presented at the FOSS Seminar of 11th June, 2025.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "12/11/2025",
+        "SPEAKER": "Joseph Smith",
+        "LINK": "https://josephtoobysmith.com/",
+        "AFFILIATION": "University of Bath",
+        "TITLE": "PhysLean: Digitalizing physics into the interactive theorem prover Lean 4",
+        "ABSTRACT": "PhysLean is a project to create a monolithic library of results from physics in the interactive theorem prover Lean 4, mirroring the project Mathlib for mathematics. It contains formal-verified results from a range of different areas of physics including classical mechanics, relativity, condensed matter physics, quantum field theory, string theory etc. In this talk I will give a high-level overview of the motivations behind PhysLean, it's current content and explain how formalizing results from physics, for physicists, differs to from formalizing results from mathematic or computer science.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "05/11/2025",
+        "SPEAKER": "Matteo Acclavio",
+        "LINK": "https://matteoacclavio.com/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "On Proof nets for IMLL",
+        "ABSTRACT": "In this talk, I will show results on various proof net syntaxs for IMLL. In particular, I will show my work in progress on how to prove that, contrary to the classical case, it is possible to define canonical proof nets for the multiplicative fragment of intuitionistic linear logic with units, supporting a polynomial-time correctness criterion and a polynomial-time proof translation.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "29/10/2025",
+        "SPEAKER": "Julian Garcia",
+        "LINK": "https://www.garciajulian.com/",
+        "AFFILIATION": "Monash University (Australia)",
+        "TITLE": "Agents in Epistemic Social Dilemmas",
+        "ABSTRACT": "The pursuit of truth by groups of agents often requires cooperation, yet this process is plagued by tensions between individual and collective interests. This talk examines how strategic behaviour can undermine epistemic goals in two critical contexts: rational debate and academic publishing. Drawing on game-theoretic models, I explore how debaters aiming to land on true beliefs face competing motivations between discovering the truth and minimising the cognitive costs of changing their beliefs. This creates cooperative dilemmas where individually rational strategies systematically undermine collective truth-seeking. In the second part, I examine how different incentive structures affect journal (or conference) behaviour in peer review; showing that venues incentivised by rejection rates have perverse incentives to maintain lower-quality peer review than those focused solely on publication quality. Both cases illuminate a broader theme: individual rational choice can systematically undermine the collective pursuit of knowledge. These findings have practical implications for designing better epistemic environments. I conclude by reflecting on how AI agents may reshape these strategic dynamics and create new opportunities for our collective epistemic practices.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "22/10/2025",
+        "SPEAKER": "Vincent van Oostrom",
+        "LINK": "http://www.javakade.nl/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Redeeming Newman: orthogonality in rewriting",
+        "ABSTRACT": "We are interested in functional programming languages based on Curry's Combinatory Logic (CL) and Church's λ-calculus (Λ), such as Miranda and Haskell. Despite reduction in CL and Λ being non-deterministic — from any expression E there may be several reduction steps possible — these calculi enjoy two key properties, entailed by orthogonality:\n\n1. If E reduces to a normal form N (an expression allowing no further reduction), then N is unique, irrespective of the reduction strategy.\n2. For any expression E, it makes sense to perform any number of reduction steps in parallel.\n\nOrthogonality therefore guarantees both that expressions evaluate to at most one value (a consequence of the Church-Rosser confluence result) and that they can be evaluated on massively parallel hardware by repeatedly performing all available reduction steps. The upshot is: doing more is better — performing more reduction steps in parallel will never hinder reaching the normal form (this may fail in merely confluent systems that only have the first property).\n\nNewman's 1942 axiomatic account of orthogonality (showing the λ-calculus with β-reduction satisfied his axioms) contained a fundamental flaw and did not establish the second property. We redeem his approach by:\n\n• giving a simple, more general account of orthogonality that entails the two properties above;\n• showing this account applies to any calculus satisfying Newman's axioms;\n• proving Newman's axioms for CL (with weak combinator reduction); and\n• showing the account applies to the λ-calculus.\n\nFor the categorically inclined: orthogonality for reduction steps entails the (constructive) existence of pushouts for reductions (up to causal equivalence).",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "02/07/2025",
+        "SPEAKER": "Marc Thatcher",
+        "LINK": "https://profiles.sussex.ac.uk/p593892-marc-thatcher",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Productivity of Interaction Nets",
+        "ABSTRACT": " It has long been known that interaction nets suffer from potential deadlock, that is nets that reduce to normal forms that cannot be interacted with.   Methods of avoiding this, drawn from proof net theory, have also been long known, but suffer from being overly conservative - that is, there are useful nets which do not deadlock but are not allowed. This work borrows the concept of productivity from term rewriting and builds on this to provide a method which can better classify nets into those that will produce an output and those (including deadlocked nets but also non-terminating ones) which will not.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "24/06/2025",
+        "SPEAKER": "Guillaume Munch-Maccagnoni, Vincent Sommella, Ian Shillito, Raffaele Di Donna, Ali Uncu",
+        "LINK": "https://t-powell.github.io/southern_logic_seminar/smls_bath.html",
+        "AFFILIATION": "",
+        "TITLE": "10th Southern and Midlands Logic Seminar",
+        "ABSTRACT": "Guillaume Munch-Maccagnoni (INRIA Nantes): Resource management in programming, call-by-push-value, and ordered logic\n\nVincent Sommella (Sussex): Relational semantics: from simple to non-idempotent intersection types and back\n\nIan Shillito (Birmingham): Semantical Analysis of Intuitionistic Modal Logics between CK and IK\n\nAli Uncu (Bath): Finding New Applications for Algorithms; Computing Normal Cones with Quantifier\n\nDetails and abstracts can be found the <a href=\"https://t-powell.github.io/southern_logic_seminar/smls_bath.html\">webpage</a> of the meeting.",
+        "WHERE": "University of Bath"
+    },
+    {
+        "DATE": "18/06/2025",
+        "SPEAKER": "Alex Kavvos",
+        "LINK": "https://seis.bristol.ac.uk/~tz20861/",
+        "AFFILIATION": "University of Bristol",
+        "TITLE": "An Abstract Machine for Functional Logic Programming",
+        "ABSTRACT": "We show how tools from algebraic effects (call-by-push-value) and denotational semantics (powerdomains) can guide the development of an abstract machine for Functional Logic Programming.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "28/05/2025",
+        "SPEAKER": "Benjamin Rodatz",
+        "LINK": "https://www.cs.ox.ac.uk/people/benjamin.rodatz/",
+        "AFFILIATION": "University of Oxford",
+        "TITLE": "Fault tolerant circuit manipulation",
+        "ABSTRACT": "Fault-tolerant quantum computing encodes quantum circuits with redundancy to detect and correct noise. However, synthesizing a fault-tolerant encoding from an idealized, noise-free quantum circuit is generally hard. Prior work on circuit synthesis has primarily focused on the noise-free setting. This paper proposes a framework for fault-tolerant circuit synthesis in noisy settings, building on the ZX calculus.\nThe ZX calculus is a diagrammatic language that has been successfully applied to many areas, including quantum circuit optimization and synthesis. As a universal language, it can represent any linear map as a ZX diagram. These diagrams can then be manipulated using ZX rewrites to bring them into the form of a quantum circuit. Since ZX rewrites preserve the semantics of diagrams, i.e. the linear maps they represent, the resulting circuit is guaranteed to implement the original linear map.\nEven though two circuits may implement the same linear map, under noise their behaviour can differ. That is, the effects faults can have on the circuits, deviating them from the original linear map, may vary. In our approach, we restrict ZX rewrites to those that preserve this behaviour under noise. This enables the use of ZX calculus for fault-tolerant circuit synthesis and optimization. Enabled by our framework, we discover a novel method for cat-state preparation at arbitrary distances and state-of-the-art circuits for syndrome extraction. Moreover, fault-aware rewrites naturally express the concept of fault-tolerant quantum computing as well as key problems in the field; this suggests that our framework captures the essence of fault tolerance. We anticipate that this unifying perspective will help bridge different approaches in fault-tolerant quantum computing.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "21/05/2025",
+        "SPEAKER": "Matteo Acclavio",
+        "LINK": "https://matteoacclavio.com/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Intuitionistic BV & Friends",
+        "ABSTRACT": "The logic BV is a conservative extension of multiplicative linear logic (MLL) with a self-dual non-commutative connective called seq. This connective shares the unit between the par and the tensor (the disjunction and conjunction of MLL). Because this unit also has to be self-dual, it cannot be polarized, and therefore it was assumed that there cannot be an intuitionistic version of BV.\n\nIn this talk, I will show the contrary. I will present the logic IBV, which is an intuitionistic version of BV, in the sense that its restriction to the MLL connectives is exactly IMLL, the intuitionistic version of MLL. For this logic we give a deep inference proof system and show cut elimination. I will also show that the logic obtained from IBV by dropping the associativity of the new seq-connective is an intuitionistic variant of the recently introduced logic NML. For this logic, called INML, we give a cut-free sequent calculus.\n\nThis talk is based on a joint work with Lutz Strassburger",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "14/05/2025",
+        "SPEAKER": "Vincent Sommella",
+        "LINK": "https://profiles.sussex.ac.uk/p639219-vincent-sommella",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Relational semantics: from simple to non-idempotent intersection types and back ",
+        "ABSTRACT": "Relational semantics is a simple and well-studied denotational model for the untyped lambda-calculus. It can be presented syntactically as a non-idempotent intersection type system and provides qualitative and quantitative information, such as the characterization of normalizing terms and their execution time (i.e., the number of steps to reach the normal form). \n\nWe study the relational semantics for the simply typed lambda-calculus extended with the fixpoint combinator; we show that the interpretation of a simply typed term is nothing but the interpretation of the untyped term restricted to the non-idempotent intersection types refining the simple type. Our approach is based on merging a simply typed derivation with a non-idempotent intersection one, which is not trivial since simply typed terms do not enjoy subject expansion and may not be normalizing (because of the fixpoint combinator). We also show that some (but not all) well-known qualitative and quantitative information provided by relational semantics and non-idempotent intersection type derivations for the untyped lambda-calculus lifts to the simply typed lambda-calculus with fixpoint combinator basically for free, thanks to our results.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "07/05/2025",
+        "SPEAKER": "Niel de Beaudrap",
+        "LINK": "https://users.sussex.ac.uk/~jrd27/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "An introduction to the ZX calculus, Part II",
+        "ABSTRACT": "(This is the second part of Niel's talk on 30 April) In this talk, I present what is hopefully an approachable introduction to the ZX calculus for people who may have no background in quantum computation, but are comfortable with simple categorical constructions or mathematics more generally. Starting from a perspective on random variables and randomised computation, I present an approach to how to think of the mathematics of quantum computation. I then describe how this mathematics is denoted by ZX diagrams (graph-based notation to denote maps in a PROP), the nice symmetries that it has and the unusual character of quantum computation which makes those symmetries possible. We then describe the ZX calculus, which are undirected rewrite rules on such diagrams, which can be used (among other things) to reason about information flow and propagation of errors in quantum computations.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "30/04/2025",
+        "SPEAKER": "Niel de Beaudrap",
+        "LINK": "https://users.sussex.ac.uk/~jrd27/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "An introduction to the ZX calculus",
+        "ABSTRACT": "In this talk, I present what is hopefully an approachable introduction to the ZX calculus for people who may have no background in quantum computation, but are comfortable with simple categorical constructions or mathematics more generally. Starting from a perspective on random variables and randomised computation, I present an approach to how to think of the mathematics of quantum computation. I then describe how this mathematics is denoted by ZX diagrams (graph-based notation to denote maps in a PROP), the nice symmetries that it has and the unusual character of quantum computation which makes those symmetries possible. We then describe the ZX calculus, which are undirected rewrite rules on such diagrams, which can be used (among other things) to reason about information flow and propagation of errors in quantum computations.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "16/04/2025",
+        "SPEAKER": "Noam Zeilberger",
+        "LINK": "https://noamz.org/",
+        "AFFILIATION": "LIX - École Polytechnique",
+        "TITLE": "Context-free grammars and finite-state automata over categories",
+        "ABSTRACT": " I will talk about joint work with Paul-André Melliès developing a categorical perspective on context-free grammars and finite-state automata[*], which grew out of our line of work on type refinement systems.  The starting point of that earlier work was to consider type systems fibrationally as functors from a category of typing derivations to a category of terms, so that typing is reduced to a \"lifting problem\" along the functor. \n\nIn the talk I will explain how both parsing by a context-free grammar (CFG) and recognition by a nondeterministic finite-state automaton (NFA) may be similarly expressed as lifting problems along certain kinds of functors and argue that viewing CFGs and NFAs this way seems to have some real explanatory power. In particular, it allows us to deconstruct the proof that context-free languages are closed under intersection with regular languages and establish a generalization of the Chomsky-Schützenberger representation theorem for languages of arrows in arbitrary categories.\n\n[*] The categorical contours of the Chomsky-Schützenberger representation theorem, <a href=\"https://arxiv.org/abs/2405.14703\">LMCS (to appear)</a>",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "02/04/2025",
+        "SPEAKER": "Charles Grellois",
+        "LINK": "https://www.sheffield.ac.uk/cs/people/academic/charles-grellois",
+        "AFFILIATION": "University of Sheffield",
+        "TITLE": "When Applications Drive New Theoretical Developments: the Case of Higher-Order Model-Checking",
+        "ABSTRACT": " In higher-order model-checking, one studies the mathematical modelisation of functional programs (aka their semantics) and enriches them with additional information, so as to solve verification tasks.\n\nI will start by introducing this field of research, and a line of work using the semantics of linear logics, that was introduced along with my PhD under the supervision of Paul-André Melliès, about a decade ago.\n\nI will then explain some of the new considerations in semantics that emerged along the way, and notably re-visit infinitary semantics, that we needed to model the infinitary computations that higher-order model-checking considers. It turns out, a decade after, that some key insights on fixpoints in this setting were not seen back then, as I shall explain during the talk.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "26/03/2025",
+        "SPEAKER": "Vit Jelinek",
+        "LINK": "https://profiles.sussex.ac.uk/p641752-vit-jelinek",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Statements from heaven (Part II)",
+        "ABSTRACT": "In category theory, we consider an equivalent pair of categories to be the same in a similar way to how we consider isomorphic groups to be the same. The categorical community often goes as far as calling the notions that are not invariant under equivalence \"evil\". In this expository talk, we will try to shed more light on the \"sameness\" of equivalent categories by introducing FOLDS (first order logic with dependent sorts) -- a logic developed by Michael Makkai that is preserved by equivalences of categories. If time permits, we will hint at generalisations of the preceding to other categorical structures (e.g. 2-categories and logic preserved by biequivalences) using the language of homotopy theory. This talk is inspired by a talk of Paula Verdugo given at the workshop Categorical Logic and Higher Categories.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "19/03/2025",
+        "SPEAKER": "Vit Jelinek",
+        "LINK": "https://profiles.sussex.ac.uk/p641752-vit-jelinek",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Statements from heaven (Part I)",
+        "ABSTRACT": "In category theory, we consider an equivalent pair of categories to be the same in a similar way to how we consider isomorphic groups to be the same. The categorical community often goes as far as calling the notions that are not invariant under equivalence \"evil\". In this expository talk, we will try to shed more light on the \"sameness\" of equivalent categories by introducing FOLDS (first order logic with dependent sorts) -- a logic developed by Michael Makkai that is preserved by equivalences of categories. If time permits, we will hint at generalisations of the preceding to other categorical structures (e.g. 2-categories and logic preserved by biequivalences) using the language of homotopy theory. This talk is inspired by a talk of Paula Verdugo given at the workshop Categorical Logic and Higher Categories.",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "05/03/2025",
+        "SPEAKER": "Julian Gutierrez",
+        "LINK": "https://profiles.sussex.ac.uk/p640350-julian-gutierrez",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Logic, Game Theory, and Formal Verification: Some Results and New Research Directions.",
+        "ABSTRACT": "In this informal presentation I will talk about some of my work in three different areas of research: logic, game theory, and formal verification. The problem settings are in the context of concurrent and multi-agent systems. This will not be an exhaustive presentation of the related literature, nor a complete presentation of my own work, but rather a selection of problems and results that are relevant to some of the research directions that I believe can be pursued further with the Sussex community. This presentation will include joint work (mostly) in the past decade with several students and colleagues elsewhere in Europe and the UK. Given that the presentation will be somewhat informal, no specific prior knowledge of logic, game theory, or formal verification is required/expected. ",
+        "WHERE": "AS03, Richmond"
+    },
+    {
+        "DATE": "12/02/2025",
+        "SPEAKER": "Philip Saville",
+        "LINK": "https://philipsaville.co.uk/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Denotational approaches to logical relations for call-by(-push)-value",
+        "ABSTRACT": "Logical relations are a key tool for proving meta-theoretic properties of logics and programs. Early examples include proving adequacy theorems, or identifying the definable terms in a semantic model. From a denotational perspective, a logical relation can be seen as constructing a certain \"relations model\" whose interpretation refines that in the model of interest. Work by Hermida, Jacobs, Katsumata and others has shown that such models can be constructed and studied using the general category-theoretic framework of (Grothendieck) fibrations.\n\nIn this talk I will briefly sketch what it means to be a logical relation, introduce the denotational point of view using fibrations, and explain how this theory can be extended to Moggi-style monadic models of effectful call-by-value programming languages. Towards the end I will outline my recent work with Pedro H. Azevedo de Amorim on extending this theory to adjunction models of Levy's call-by-push-value. I will not assume any prior knowledge on logical relations or fibrations.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "11/12/2024",
+        "SPEAKER": "Maribel Fernandez, Alex Wan, Igor Arrieta, Yll Buzoku, Matteo Acclavio",
+        "LINK": "https://taroccoesbrocco.github.io/SMLS/smls-sussex.html",
+        "AFFILIATION": "",
+        "TITLE": "8th Southern and Midlands Logic Seminar",
+        "ABSTRACT": "\n<ul>\n\n    <li>Maribel Fernandez (King's College London). Unification Modulo Equational Theories in Languages with Binding Operators.</li>\n\n    <li>Alex Wan (University of Bath). Zero-one laws: A quantitative insight.</li>\n\n    <li>Igor Arrieta (University of Birmingham). The DeMorganization of a locale.</li>\n\n    <li>Yll Buzoku (University College London). Translations between bases in Base-extension Semantics.</li>\n\n    <li>Matteo Acclavio (University of Sussex). Processes as Formulas, and Choreographies as Proofs.</li>\n\n</ul>\n\n    \n\nDetails and abstracts can be found the <a href=\"https://taroccoesbrocco.github.io/SMLS/smls-sussex.html\">webpage</a> of the meeting.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "04/12/2024",
+        "SPEAKER": "Vincent van Oostrom",
+        "LINK": "http://www.javakade.nl/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "The problem of the calissons, by rewriting",
+        "ABSTRACT": "The problem of the calissons is a recreational math puzzle asking to show that a hexagonal box filled with calissons in 3 different orientations (coloured diamonds), has the same number of calissons in each of the 3 orientations.\n\nWe employ this easy puzzle to showcase 4 not very well-known but powerful confluence techniques for rewrite systems: random descent (RD), decreasing diagrams, bricklaying, and local undercutting (LUC).\n\nWe then go into details for 2 techniques, RD and LUC. We show that a rewrite system is terminating (SN) & locally confluent (WCR) iff it is normalising (WN) & RD, offering a novel perspective on when a proof of weak normalisation (WN) can be promoted to a proof of strong normalisation (SN), aka the Barendregt--Geuvers--Klop conjecture. We show that in the presence of termination LUC entails not just confluence but orthogonality, saying computations have least common multiples / have pushouts / constitute a semi-lattice, a result applicable to various structures, e.g. to the λβ-calculus (Lévy's theory of permutation equivalence) and to Artin's positive braids (Garside theory).\n\nFor a short IWC 24 paper on the first half, see: https://www.trs.css.i.nagoya-u.ac.jp/event/iwc2024/IWC2024_proceedings.pdf#page=21",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "27/11/2024",
+        "SPEAKER": "Hamish Todd",
+        "LINK": "https://hamishtodd1.github.io/",
+        "AFFILIATION": "STEM AI",
+        "TITLE": "The cross product: What It Looks Like To Make A Type Error At the Level of A Civilization",
+        "ABSTRACT": "How useful are the structures defined by mathematicians for programmers? This lecture will offer a case study from computer animation programming, where fairly exotic mathematical objects are defined in order to solve geometric problems, some coming from theoretical physics and abstract algebra. Dual Quaternions, for example, are used by Disney to improve the animation of human joints. \"Geometric Algebra\" bundles many of these together. It has been called \"object-oriented programming for geometry\" - but instead of being defined arbitrarily, it separates and combines objects in a way that is justified on the level of group theory and tensor algebra. In spite of this, companies have been slow to adopt geometric algebra. This because it is not taught in almost any undergraduate course. In its place, a type-error-inducing formalism called the \"cross product\" is taught - this talk will explain the history and maths that lead to this situation.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "20/11/2024",
+        "SPEAKER": "Jake Hughes",
+        "LINK": "https://jakehughes.uk/",
+        "AFFILIATION": "King's College London",
+        "TITLE": "Garbage Collection for Rust: The Finalizer Frontier",
+        "ABSTRACT": "Rust is a non-Garbage Collected (GCed) language, but the lack of GC makes expressing data-structures whose values have multiple owners awkward or inefficient. Adding GC to Rust has previously required sacrificing at least one of performance, soundness, or ergonomics. We identify the major challenge for practical GC for Rust as finalisers: mapping existing Rust destructors to GC finalisers seems natural but introduces subtle soundness, significant performance, and irritating ergonomic issues. In this talk, I'll introduce Alloy, a new GC for Rust, and discuss how it provides solutions for each of these issues.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "13/11/2024",
+        "SPEAKER": "Davide Barbarossa",
+        "LINK": "https://davidebarbarossa12.github.io/",
+        "AFFILIATION": "University of Bath",
+        "TITLE": "A survey on Dialectica and Differentiation, through categories",
+        "ABSTRACT": "Gödel's Dialectica is a logical transformation introduced for consistency results and widely applied e.g. in proof mining. Only recently has it been related with the, a priori unrelated, notion of differentiation in functional languages: we can now read it as a differentiable program transformation for the lambda-calculus.\n\nBuilding on that, we will formulate the relation between these two notions in the framework of differential categories. Moreover, we will comment on the relation between (reverse) differential/tangent categories and Dialectica categories, by taking the fibrational point of view of (dependent) lenses, keeping a geometrical intuition in mind.\n\nThis talk is based on a recently submitted work.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "30/10/2024",
+        "SPEAKER": "Elaine Pimentel",
+        "LINK": "https://sites.google.com/site/elainepimentel/home",
+        "AFFILIATION": "University College London",
+        "TITLE": " Playing with modalities",
+        "ABSTRACT": "In this talk, we will explore modalities through dialogical lenses.\n\nWe begin by examining substructural calculi from a game semantic perspective, guided by intuitions about resource-conscious, and more specifically, cost-conscious reasoning. The game comes into full swing as we introduce cost labels to assumptions and a corresponding budget. Different proofs of the same end-sequent are interpreted as strategies for a player to defend a claim, which vary in cost. This leads to a labelled calculus, which can be viewed as a fragment of Subexponential Linear Logic (SELL). We then generalize the concept of costs in proofs by employing a semiring structure, illustrating this interpretation with examples, and investigating some proof-theoretical properties.\n\nThe second part of the talk will focus on the modal logic PNL, which involves Kripke frames with two types of disjoint and symmetric reachability relations. This is motivated by the study of group polarization, where the opinions or beliefs of individuals within a group become more extreme or polarized after interaction. Our approach to reasoning about group polarization is based on PNL and highlights a different aspect of formal reasoning about the corresponding models—using games and proof systems. Games provide a powerful tool for bridging the gap between intended and formal semantics, often offering a more conceptually natural approach to logic than traditional model-theoretic semantics.\n\nThis is a joint work with Timo Lang, Robert Freiman, Carlos Olarte and Christian G. Fermüller.\n\nReferences:\n\n[1] T. Lang, C. Olarte, E. Pimentel, C. G. Fermüller. A Game Model for Proofs with Costs, TABLEAUX 2019, 241–258.\n\n[2] R. Freiman, C. Olarte, E. Pimentel and C. G. Fermüller. Reasoning About Group Polarization: From Semantic Games to Sequent Systems, LPAR-25, 2024.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "23/10/2024",
+        "SPEAKER": "Lutz Strassburger",
+        "LINK": "https://www.lix.polytechnique.fr/Labo/Lutz.Strassburger/",
+        "AFFILIATION": "INRIA-Saclay & LIX-Ecole Polytechnique",
+        "TITLE": "Intuitionistic Combinatorial Proofs and their Normalization",
+        "ABSTRACT": "We present normalization for intuitionistic combinatorial proofs (ICPs) and relate it to the simplytyped lambda-calculus. We prove confluence and strong normalization. Combinatorial proofs, or “proofs without syntax”, form a graphical semantics of proof in various logics that is canonical yet complexity-aware: they are a polynomial-sized representation of sequent proofs that factors out exactly the non-duplicating permutations. Our approach to normalization aligns with these characteristics: it is canonical (free of permutations) and generic (readily applied to other logics). Our reduction mechanism is a canonical representation of reduction in sequent calculus with closed cuts (no abstraction is allowed below a cut), and relates to closed reduction in lambda-calculus and supercombinators. While we will use ICPs concretely, the notion of reduction is completely abstract, and can be specialized to give a reduction mechanism for any representation of typed normal forms.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "12/06/2024",
+        "SPEAKER": "Abhishek De",
+        "LINK": "https://sites.google.com/view/abhishekde",
+        "AFFILIATION": "University of Birmingham",
+        "TITLE": "Formal languages through the lens of proof theory",
+        "ABSTRACT": "Axiomatisation of regular languages has been studied for a long time. A significant breakthrough was achieved by proving the completeness of Kozen's axiomatisation. Inspired by right-linear grammars, we propose an alternative presentation of regular expressions and provide a natural axiomatisation. The completeness of this axiomatisation is proved by a detour through cyclic proofs. Our setting allows for natural generalisation to omega-regular, context-free, and omega-context-free languages.\n\nIn this talk, I will present the key ideas behind the completeness proof and discuss the aforementioned extensions.\n\nThe talk is based on joint work with Anupam Das (University of Birmingham): \n\nhttps://arxiv.org/abs/2401.13382 \n\nhttps://arxiv.org/abs/2404.16231",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "05/06/2024",
+        "SPEAKER": "Alessio Santamaria",
+        "LINK": "",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Towards a Calculus of Substitution for Dinatural Transformations",
+        "ABSTRACT": "In this talk I'll present the main results from my PhD concerning the compositionality property of dinatural transformations. These are families of morphisms satisfying a generalised naturality condition, suitable for functors of mixed variance. I'll explain an example of where they appear in nature (they were proposed to give a semantics of parametric polymorphism), and also what was the initial motivation that led me to study them: to define a notion of substitution of deep inference proofs (what Torie talked about last week!). There wouldn't be much to discuss about them if they didn't suffer from a troublesome shortcoming: they don't compose. The first result I achieved was a sufficient and essentially necessary condition for compositionality of dinatural transformations: acyclicity of certain associated graphs. The second is a new notion of horizontal composition for them, which should yield the desired notion of substitution of proofs, when these are seen as dinatural transformations. One would naturally expect an interchange law connecting the two compositions, but an analogue of what happens with natural transformations doesn't actually work for “type-checking” reasons. An abstract calculus of substitution for dinatural transformations is in order, generalising the one designed by Kelly for covariant functors and many-variable natural transformations in the 1970s; an appropriate interchange law should then stem from this calculus.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "29/05/2024",
+        "SPEAKER": "Victoria Barret",
+        "LINK": "",
+        "AFFILIATION": "University of Bath",
+        "TITLE": "Compression and canonicity of proofs via substitutions",
+        "ABSTRACT": "In deep inference formalisms, proofs can be freely composed horizontally by connectives, and composed vertically by rules, both of which can be seen as additive composition mechanisms. We introduce a multiplicative composition mechanism given by the substitution and factorisation of proofs, which is designed to compress proofs and to factor out negligible differences between proofs (what is called bureaucracy of type B in [1]). It is hoped that this can lead to a good notion of canonical forms for proofs. In order to simplify the problem of how to substitute proofs, we first work in a simplified ‘strictly linear' system; this system equipped with substitutions is nevertheless powerful enough to p-simulate substitution Frege. In this talk, I will introduce the substitution mechanism and discuss some open problems, including those of finding canonical forms and lifting the notion of substitution to systems which are not strictly linear. \n\n[1] Lutz Straßburger. From Deep Inference to Proof Nets via Cut Elimination.\n",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "22/05/2024",
+        "SPEAKER": "Alessandro Di Giorgio",
+        "LINK": "",
+        "AFFILIATION": "University College London",
+        "TITLE": "Diagrammatic Algebra of First-Order Logic",
+        "ABSTRACT": "The interaction of linear and cartesian bicategories gives rise to first-order bicategories. The latter improve Peirce's calculus of relations in two ways: \n\n        (1) their axioms provide a proof system that is both purely equational and complete; \n\n        (2) the language has the same expressivity of first-order logic. \n\n        Since the proof system is purely equational and the syntax is diagrammatic, proofs are exactly diagram rewrites. Finally, we illustrate a correspondence between first-order bicategories and Boolean hyperdoctrines.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "08/05/2024",
+        "SPEAKER": "Matteo Acclavio",
+        "LINK": "https://matteoacclavio.com",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Propositional Dynamic Logic and Concurrency",
+        "ABSTRACT": "Dynamic logic in the setting of concurrency has proved problematic because of the challenge of capturing interleaving. This challenge stems from the fact that the operational semantics for programs considered in this logics is tailored on trace reasoning for sequential programs. In this talk, I will present propositional dynamic logic (PDL) and the previous attempts to extend it to reason about concurrent programs. Then I will present a new logic framework called operational propositional dynamic logic (OPDL), providing a cut-free sequent calculus for it and showing adequacy results. I will conclude by discussing OPDL for Milner's CCS and Choreographic Programming. This talk is based on joint work with Fabrizio Montesi and Marco Peressotti.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "01/05/2024",
+        "SPEAKER": "Niel De Beaudrap",
+        "LINK": "https://users.sussex.ac.uk/~jrd27/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "An Impression of Quantum Computing",
+        "ABSTRACT": "In this introductory talk, I try to describe quantum computation in a way different to the vast majority of presentations. While quantum computation is often described in terms of very large matrices or 'computing many possibilities in parallel', these do not really provide any insight into the way that quantum computing solves problems or how we treat it as a computational model. Rather than providing a technical description of quantum computation, I will try to convey how quantum procedures are composed, how we reason about them, and the indirect way in which quantum subroutines help to solve problems.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    },
+    {
+        "DATE": "24/04/2024",
+        "SPEAKER": "Giulio Guerrieri",
+        "LINK": "https://pageperso.lis-lab.fr/~giulio.guerrieri/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "The theory of meaningfulness in the call-by-value lambda-calculus",
+        "ABSTRACT": "The untyped lambda-calculus is a simple and Turing-complete model of computation that represents the kernel of any functional programming language. The semantics of the untyped call-by-name lambda-calculus (CbN) is a well-developed field built around the concept of solvable terms, which are elegantly characterized in many different ways. In particular, unsolvable terms provide a consistent notion of meaningless terms, and meaningful terms can be identified with the solvable ones. The semantics of the untyped call-by-value lambda-calculus (CbV, which is closer to the real implementations of programming languages) is instead still in its early stages, because of some inherent difficulties but also because CbV solvable terms are less studied and understood than in CbN. On the one hand, we show that a carefully crafted presentation of CbV allows us to recover many of the properties that solvability has in CbN, in particular qualitative and quantitative characterizations via multi types. On the other hand, we stress that, in CbV, solvability plays a different role: identifying unsolvable terms as meaningless induces an inconsistent theory. We argue that in CbV, the correct notion of meaningful terms is captured by the concept of potential valuability. In particular, terms that are not potentially valuable provide a consistent notion of meaningless terms in CbV and enjoy all the good properties (such as genericity) of unsolvable terms in CbN.",
+        "WHERE": "Lecture Theatre 1, Chichester I"
+    }
+]
