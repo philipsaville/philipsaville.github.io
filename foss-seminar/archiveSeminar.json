@@ -1,5 +1,13 @@
-[ 
+[
     {
+        "DATE": "17/05/2026",
+        "SPEAKER": "test",
+        "LINK": "test.html",
+        "AFFILIATION": "test",
+        "TITLE": "test",
+        "ABSTRACT": "test",
+        "WHERE": "Chichester 1"        
+    },{
         "DATE": "13/05/2026",
         "SPEAKER": "Amir Naseredini",
         "LINK": "https://sahnaseredini.github.io/",
