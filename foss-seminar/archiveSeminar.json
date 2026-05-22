@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "27/05/2026",
+        "SPEAKER": "Paul Levy",
+        "LINK": "https://pblevy.github.io/",
+        "AFFILIATION": "University of Birmingham",
+        "TITLE": "Oles embeddings",
+        "ABSTRACT": "Oles embeddings are a way of generalizing the notion of injection in the category of sets (and decidable subobject in an extensive category) to an arbitrary category with finite coproducts. The concept is dual to that of Oles expansions, also known as very well-behaved lenses, which have played a role in the semantics of state. <br> We also introduce notions of Oles inverse image square, Oles intersection square and union, generalizing the corresponding notions from the category of sets and satisfying several of their properties. <br> We then further generalize these notions to the setting of a category acting on another category, and we see various examples from the semantics of effects arising as special cases. These include the lookup/update algebras (mnemoids) of Plotkin and Power, and monads supporting exceptions and other kinds of handling.",
+        "WHERE": "2pm, Chichester 1"
+    },
+    {
         "DATE": "13/05/2026",
         "SPEAKER": "Amir Naseredini",
         "LINK": "https://sahnaseredini.github.io/",
