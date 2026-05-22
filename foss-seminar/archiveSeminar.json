@@ -1,13 +1,5 @@
 [
     {
-        "DATE": "17/05/2026",
-        "SPEAKER": "test",
-        "LINK": "test.html",
-        "AFFILIATION": "test",
-        "TITLE": "test",
-        "ABSTRACT": "test",
-        "WHERE": "Chichester 1"        
-    },{
         "DATE": "13/05/2026",
         "SPEAKER": "Amir Naseredini",
         "LINK": "https://sahnaseredini.github.io/",
@@ -15,15 +7,8 @@
         "TITLE": "ALARM: Active LeArning of Rowhammer Mitigations",
         "ABSTRACT": "Rowhammer is a serious security problem of contemporary dynamic random-access memory (DRAM) where reads or writes of bits can flip other bits. DRAM manufacturers add mitigations, but don't disclose details, making it difficult for customers to evaluate their efficacy. We present an automated tool, based on active learning, that automatically infers parameter of Rowhammer mitigations against synthetic models of modern DRAM. <br> <a href=https://arxiv.org/abs/2211.16942>Link to the paper</a>.",
         "WHERE": "Chichester 1"
-    },{
-        "DATE": "27/04/2026",
-        "SPEAKER": "Guy McCusker",
-        "LINK": "https://people.bath.ac.uk/gam23/",
-        "AFFILIATION": "University of Bath",
-        "TITLE": "Interaction Improvement",
-        "ABSTRACT": "The relational semantics of linear logic is a powerful framework for defining resource-aware models of the λ-calculus. However, its quantitative aspects are not reflected in the preorders and equational theories induced by these models. We attempt to shed some light on the quantitative aspects of these models by studying the recently introduced checkers calculus. We give a quantitative notion of “improvement preorder” on the checkers calculus and provide a sound denotational model for this preorder using a weighted relational semantics. Our main result is that the induced preorders on terms of the ordinary λ-calculus coincide: the relational semantics, the weighted relational semantics, and the quantitative operational preorder all correspond to inclusion of Böhm trees up to extensionality. \n Joint work with Adrienne Lancelot (University of Bologna), Giulio Manzonetto (IRIF, Université Paris Cité) and Gabriele Vanoni (IRIF, Université Paris Cité)",
-        "WHERE": "Shawcross AS02"
-    },{
+    },
+    {
         "DATE": "05/12/2025",
         "SPEAKER": "Dusko Pavlovic",
         "LINK": "https://dusko.org/",
