@@ -1,5 +1,13 @@
 [
     {
+        "DATE": "23/09/2026",
+        "SPEAKER": "Giulio Guerrieri",
+        "LINK": "https://taroccoesbrocco.github.io/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Connectivity at the crossroad of intuitionistic and classical polarizations in linear logic",
+        "ABSTRACT": "We investigate a property that extends the Danos-Regnier correctness criterion for linear logic proof-structures. The property applies to the correctness graphs of a proof-structure: it states that any such graph is acyclic, and the number of its connected components is exactly one more than the number of nodes bottom or weakening. This is known to be necessary but not sufficient in multiplicative exponential linear logic (MELL) to recover a sequent caculus proof from a proof-structure. We present a geometric restriction on proof-structures allowing us to turn this necessary property into a sufficient one, computationally efficient: we can thus introduce the notable fragment VMELL of MELL for which the property is indeed a correctness criterion. The fragment VMELL brings together the classical and intuitionistic polarizations. We translate the bang calculus terms into proof-nets of VMELL, factorize the usual translations in linear logic of the call-by-name and call-by-value lambda-calculi, prove that cut elimination simulates bang reduction, and provide an explicit characterization of the bang calculus terms as proof-nets. Joint work with  Raffaele Di Donna and Lorenzo Tortora de Falco."
+    },    
+    {
         "DATE": "15/07/2026",
         "SPEAKER": "Zeinab Galal",
         "LINK": "https://zgalal.github.io/",
