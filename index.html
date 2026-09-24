@@ -36,8 +36,15 @@ html {
     margin-right:20%;
     margin-top: 3%;
 }
-h2, h3, h4 {
-  font-weight:100;
+h2, h3 {
+  font-weight: bold;
+}
+h4 {
+  font-weight: 100;
+}
+
+#teaching {
+  margin-bottom:.5em;
 }
 </style>
 
@@ -47,18 +54,30 @@ h2, h3, h4 {
 <img style="float:right;height:170px;" src="headshot-small.jpg" alt="Philip Saville headshot">
 <h1 style="margin-bottom:.2em">Philip Saville</h1>
 <h2 style="margin-bottom:-.3em;">Department of Informatics, University of Sussex</h2>
-<h4 style="margin-bottom:-.3em;">
-p.(lastname)@sussex.ac.uk. My previous email address, 
-(firstname).(lastname)@cs.ox.ac.uk, will stop working as of September 2024. After that I will have no access to emails sent to this address.</h4>
+<h4 style="margin-bottom:-.3em;">Email: p.(lastname)@sussex.ac.uk.</h4>
 <h4 style="margin-bottom: 2.3em;">Departmental webpage: <a href="https://www.sussex.ac.uk/profiles/643094">sussex.ac.uk/profiles/643094</a>;
 OrcID: <a href="https://orcid.org/0000-0002-8320-0280">0000-0002-8320-0280</a></h4>
 
+<hr style="margin-bottom:1em;">
+
+<b>Jump to:</b>
+  <ul style="margin-top:-.1em">
+    <li>
+        <a href="#bio">Bio</a>.
+    </li>    
+    <li>
+        <a href="#publications">Publications</a>, including <a href="#preprints">preprints</a>, <a href="#thesis">my thesis</a>, and <a href="#talks">slides from selected talks</a>.
+    </li>    
+    <li>
+        <a href="#teaching">Teaching</a>, including <a href="#find-me">how to find my office</a>.
+    </li>
+  </ul>
 
 <hr style="margin-bottom:1.5em;">
 
 <!--- Bio -->
 
-      <div style="margin-bottom:1em;">
+      <div id="bio" style="margin-bottom:1em;">
          I am an assistant professor in computer science at the University of Sussex. 
 
          Until September 2024 I was a post-doc with <a href="https://www.cs.ox.ac.uk/people/samuel.staton/main.html">Sam Staton</a> at the University of Oxford. 
@@ -88,7 +107,7 @@ OrcID: <a href="https://orcid.org/0000-0002-8320-0280">0000-0002-8320-0280</a></
 <!--- Publications -->
 
        <div style="margin-bottom:1em;">
-         <h2 style="margin-bottom:-.3em;">Publications</h2>
+         <h2 id="publications" style="margin-bottom:-.3em;">Publications</h2>
 
          <ul style="margin-bottom:.8em;">
 
@@ -184,7 +203,7 @@ OrcID: <a href="https://orcid.org/0000-0002-8320-0280">0000-0002-8320-0280</a></
 <!--- Preprints -->
 
 <div style="margin-bottom:1em;">
-  <h2 style="margin-bottom:-.3em;">Preprints</h2>  
+  <h2 id="preprints" style="margin-bottom:-.3em;">Preprints</h2>  
   <ul style="margin-bottom:.8em;">
 
   <li>
@@ -204,7 +223,7 @@ OrcID: <a href="https://orcid.org/0000-0002-8320-0280">0000-0002-8320-0280</a></
 
 <!--- Thesis -->
 
-         <h2 style="margin-bottom:.2em;">Thesis</h2>
+         <h2 id="thesis" style="margin-bottom:.2em;">Thesis</h2>
          <i> Cartesian closed bicategories: type theory and coherence</i>, supervised
          by Marcelo Fiore. Examined by Steve Awodey (external) and Martin Hyland (internal),
          24th March 2020.
@@ -217,7 +236,7 @@ OrcID: <a href="https://orcid.org/0000-0002-8320-0280">0000-0002-8320-0280</a></
 <!--- Talks -->
 
        <div style="margin-bottom:.2em;">
-         <h2 style="margin-bottom:-.3em;"> Selected talks </h2>
+         <h2 id="talks" style="margin-bottom:-.3em;"> Selected talks </h2>
 
          <ul>
           <li><i>A 2-categorical approach to logical relations</i>. FioreFest, Cambridge, July 2026. Slides <a href="fiorefest.pdf">here</a>.
@@ -280,17 +299,45 @@ OrcID: <a href="https://orcid.org/0000-0002-8320-0280">0000-0002-8320-0280</a></
 <!--- Teaching -->
 
       <div style="margin-bottom:.5em;">
-         <h2 style="margin-bottom:.5em;"> Teaching </h2>
+         <h2 id="teaching"> Teaching </h2>
 
-          I am generally interested in supervising projects on topics around theoretical computer science -- feel free to email me if you are interested!
+         At Sussex I teach the following modules:
+         <ul>
+            <li>
+                Programming Concepts (first year)
+            </li>
+            <li> 
+                Design and Analysis of Algorithms (second year, jointly)
+            </li>
+            <li>
+                Topics in Computer Science (master's, jointly)
+            </li>
+          </ul>  
+          I am generally interested in supervising projects on topics around theoretical computer science, especially around algorithms or programming languages -- feel free to email me if you are interested!
 
+          <h3 id="find-me">Where to find me</h3>
+          My office is Chichester 2R304. To get there:
+          <ul>  
+            <li>
+            Start from the stairs near the vending machine outside Chichester 1 lecture theatre.             
+            </li>
+            <li>
+            Go all the way to the top, turn left and then follow the winding corridor through three blue doors.             
+            </li> 
+            <li>
+                When you come out onto a corridor, my office is first on the right (it has my names on the door).
+            </li>
+            <li>
+              You can also take the lift but note that it only goes up to the penultimate floor!
+              If you have any issues reaching / finding the office let me know and we can organise another location.   
+            </li>
+          </ul>
+          
+          <h3>Some teaching from before I started at Sussex</h3>
             <ul>
-              <li>
-                  In 2024-5 I taught the Programming Concepts course. In 2026-6 I taught Programming Concepts and Data Structures and Algorithms.
-              </li>
               <li> 
                 In 2022 I co-supervised (with Sam Staton) Lili Janzer's MSc thesis, titled <i>Category-theoretic syntactic models of
-                programming languages</i>. A copy is available <a href="lili-thesis.pdf">here</a>.
+                programming languages</i>. A copy is available <a href="lili-thesis.pdf">here</a>. In 2023 I co-supervised (with Sam Staton) Nayan Rajesh's MSc thesis, available <a href="https://arxiv.org/abs/2504.10314v1">here</a>.
               </li>
               <li>
                 In 2021-22 I was TA for the Principles of Programming Languages course.
