@@ -1,5 +1,13 @@
 [
     {
+        "DATE": "14/10/2026",
+        "SPEAKER": "Dylan McDermott",
+        "LINK": "https://dylanm.org/",
+        "AFFILIATION": "University of Oxford",
+        "TITLE": "Message-passing with session types as a computational effect",
+        "ABSTRACT": "Participants in a distributed system often communicate by message-passing. Multiparty session types provide a typing discipline for ensuring that the participants conform to a given protocol, and hence that they satisfy safety and liveness properties. <br> One observation is that message-passing is a computational effect, much like mutable state or exceptions. In this talk, I will see what happens when we take this perspective seriously. I will use ideas from calculi for computational effects to design call-by-value calculus with message-passing, together with a session type system based on graded type systems for computational effects. The resulting system arises naturally from the effects perspective, but looks rather different to existing work on the theory of session types -- there is no π-calculus or linear logic involved. It leads to new insights about session types. In particular, I will explain how we can leverage work on denotational semantics for computational effect to describe the first first denotational semantics for asynchronous multiparty session types with precise asynchronous subtyping. <br>This talk is based on my ESOP 2026 paper <i>Denotational reasoning for asynchronous multiparty session types</i> with Nobuko Yoshida."
+    },     
+    {
         "DATE": "23/09/2026",
         "SPEAKER": "Giulio Guerrieri",
         "LINK": "https://taroccoesbrocco.github.io/",
