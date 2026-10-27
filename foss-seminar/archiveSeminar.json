@@ -1,5 +1,13 @@
 [
     {
+        "DATE": "28/10/2026",
+        "SPEAKER": "Willem Heijltjes",
+        "LINK": "https://willem.heijltj.es/",
+        "AFFILIATION": "University of Bath",
+        "TITLE": "The relational machine calculus",
+        "ABSTRACT": "An interesting aspect of the Functional Machine Calculus is that it endows the familiar Krivine Machine for the lambda-calculus with a new symmetry: computations return output on the stack, as well as taking input from it. This exposes a tantalizing opposition between 'push' and 'pop', and raises the question: can we make this into a true duality?<br> Our answer is the Relational Machine Calculus (RMC): a stack calculus for relational computation with a perfect (time-reversing) duality. We wanted this to be a foundational model of computation, which means we have aimed for a minimal yet expressive syntax that captures a wide range of computational models through simple and natural translations. The result is a calculus that combines a Kleene algebra with stack operations and unification, that is able to naturally express automata (finite state automata, push-down automata, Turing machines, and various forms of transducers), interaction nets, prolog, and Petri nets.<br>Joint work with Chris Barrett and Daniel Castle."
+    },     
+    {
         "DATE": "14/10/2026",
         "SPEAKER": "Dylan McDermott",
         "LINK": "https://dylanm.org/",
