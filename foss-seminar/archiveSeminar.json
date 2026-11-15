@@ -1,5 +1,21 @@
 [
     {
+        "DATE": "18/11/2026",
+        "SPEAKER": "Nox Cowie",
+        "LINK": "https://noxcowie.com/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Learning logics for neuro-symbolic Boolean games",
+        "ABSTRACT": "Neuro-symbolic AI systems combine neural and symbolic approaches within a single framework with a view towards utilising their complementary strengths. In 'Semantic foundations of neuro-symbolic multi-agent systems,' Gutierrez (2026) created one of the first formal models for neuro-symbolic multi-agent systems in the form of Neuro-Symbolic Boolean Games (NSBGs). We formulate Basic Learning Logic (BLL) for reasoning about learning as the acquisition of new agent-relative beliefs, informed by trained neural mechanisms, that persist under the stability of agent strategies. This is extended to Coalition Learning Logic (CLL) and its restriction CLL* by adding coalition operators, facilitating a succinct definition of learning with respect to coalition-relative stable states that are independently enforceable. We characterise the cost of verifying what agents can learn and whether they can learn it and prove that model checking with respect to full state models is PP-complete for all logics, while for succinct model representations, model checking for BLL and CLL* is in PSPACE and it is PSPACE-complete for CLL."
+    },    
+    {
+        "DATE": "11/11/2026",
+        "SPEAKER": "Dylan Bettendroffer",
+        "LINK": "https://dylanbettendroffer.fr/",
+        "AFFILIATION": "University of Sussex",
+        "TITLE": "Graphical syntaxes : what, why and how?",
+        "ABSTRACT": " Since their inception, proof-nets have proven themselves very useful in the study of various topics ranging from lambda-calculus and proof normalization to the problem of proof equivalence. They have also been fertile ground for developing other graph based proof semantics such as Retoré's handsome proof-nets (or cographic proof-nets) and Hughes' combinatorial proofs. But to a lot of logicians they still regard them as quite an alien object. In this talk we will try and demystify them by taking a historical look as to why proof-nets and other graphical syntaxes, and discuss a handful of correctness criterion as well as what they tell us about the structure of proofs."
+    },
+    {
         "DATE": "28/10/2026",
         "SPEAKER": "Willem Heijltjes",
         "LINK": "https://willem.heijltj.es/",
