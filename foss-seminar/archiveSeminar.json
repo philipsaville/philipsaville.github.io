@@ -1,5 +1,13 @@
 [
     {
+        "DATE": "25/11/2026",
+        "SPEAKER": "Guy McCusker",
+        "LINK": "https://gam23atbathdotac.uk/",
+        "AFFILIATION": "University of Bath",
+        "TITLE": "Interaction improvement",
+        "ABSTRACT": "The relational semantics of linear logic is a powerful framework for defining resource-aware models of the λ-calculus. However, its quantitative aspects are not reflected in the preorders and equational theories induced by these models. We attempt to shed some light on the quantitative aspects of these models by studying the recently introduced checkers calculus. We give a quantitative notion of “improvement preorder” on the checkers calculus and provide a sound denotational model for this preorder using a weighted relational semantics. Our main result is that the induced preorders on terms of the ordinary λ-calculus coincide: the relational semantics, the weighted relational semantics, and the quantitative operational preorder all correspond to inclusion of Böhm trees up to extensionality. <br> Joint work with Adrienne Lancelot (University of Bologna), Giulio Manzonetto (IRIF, Université Paris Cité) and Gabriele Vanoni (IRIF, Université Paris Cité)."
+    }, 
+    {
         "DATE": "18/11/2026",
         "SPEAKER": "Nox Cowie",
         "LINK": "https://noxcowie.com/",
