@@ -48,6 +48,14 @@
         "ABSTRACT": "We investigate a property that extends the Danos-Regnier correctness criterion for linear logic proof-structures. The property applies to the correctness graphs of a proof-structure: it states that any such graph is acyclic, and the number of its connected components is exactly one more than the number of nodes bottom or weakening. This is known to be necessary but not sufficient in multiplicative exponential linear logic (MELL) to recover a sequent caculus proof from a proof-structure. We present a geometric restriction on proof-structures allowing us to turn this necessary property into a sufficient one, computationally efficient: we can thus introduce the notable fragment VMELL of MELL for which the property is indeed a correctness criterion. The fragment VMELL brings together the classical and intuitionistic polarizations. We translate the bang calculus terms into proof-nets of VMELL, factorize the usual translations in linear logic of the call-by-name and call-by-value lambda-calculi, prove that cut elimination simulates bang reduction, and provide an explicit characterization of the bang calculus terms as proof-nets. Joint work with Raffaele Di Donna and Lorenzo Tortora de Falco."
     },    
     {
+        "DATE": "29/08/2026",
+        "SPEAKER": "Paulo Emílio de Vilhena",
+        "LINK": "https://devilhena-paulo.github.io/",
+        "AFFILIATION": "University of Surrey",
+        "TITLE": "You only get one shot - reasoning about one-shot continuations in separation logic",
+        "ABSTRACT": "Continuations are a powerful programming concept: cooperative concurrency, coroutines, Python-style generators, and many other features can be implemented as libraries rather than being built into the language. However, because they have a non-local effect on control flow, continuations are difficult to reason about. In this talk, I present surprisingly simple separation-logic reasoning rules for continuations captured through call/cc and its variants. I demonstrate these rules in several case studies, including a novel interface for user-defined effects."
+    },    
+    {
         "DATE": "15/07/2026",
         "SPEAKER": "Zeinab Galal",
         "LINK": "https://zgalal.github.io/",
